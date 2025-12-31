@@ -83,23 +83,13 @@ procure-ai/
 
 ## 🚀 Quick Start
 
-### 1. Download & Setup
+### 1. Clone & Install
 
 ```bash
-# After downloading/cloning, run the setup script first:
-
-# On Mac/Linux:
-chmod +x setup.sh
-./setup.sh
-
-# On Windows:
-setup.bat
-
-# Then install dependencies:
+git clone https://github.com/yourusername/procure-ai.git
+cd procure-ai
 npm install
 ```
-
-> **Note:** The setup script renames Next.js dynamic route folders (`[id]`, `[...nextauth]`) which GitHub's web upload doesn't support.
 
 ### 2. Configure Environment
 
